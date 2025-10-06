@@ -57,6 +57,8 @@ A full-stack chatbot application built with **ReactJS**, **Tailwind CSS**, **Nod
 
      ```bash
      npm start
+     server running on port 4002
+     Connected to MONGODB
      ```
 
 3. **Frontend Setup:**
@@ -64,10 +66,10 @@ A full-stack chatbot application built with **ReactJS**, **Tailwind CSS**, **Nod
    ```bash
    cd frontend
    npm install
-   npm start
+   npm run dev
    ```
 
-   * The React app will run on `http://localhost:3000` by default.
+   * The React app will run on `http://localhost:5178` by default.
 
 ---
 
