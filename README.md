@@ -92,31 +92,73 @@ A full-stack chatbot application built with **ReactJS**, **Tailwind CSS**, **Nod
 
 
 
-# Go into your project folder
-cd chatbot
 
-# Initialize git (only if not done already)
+### **Step 1: Go into your project folder**
+
+```bash
+cd /path/to/your/chatbot
+```
+
+---
+
+### **Step 2: Initialize Git (if you haven’t already)**
+
+```bash
 git init
+```
 
-# Add your GitHub repo as remote
+---
+
+### **Step 3: Add your GitHub repository as remote**
+
+```bash
 git remote add origin https://github.com/prabha34/Chatbot-Application.git
+```
 
-# Create a .gitignore so junk files don’t get tracked
+---
+
+### **Step 4: Create a `.gitignore`**
+
+This will make sure unnecessary files like node_modules, environment variables, and build artifacts aren’t pushed to GitHub:
+
+```bash
 echo "node_modules/
 .env
 dist/
 build/
-.DS_Store
-" > .gitignore
+.DS_Store" > .gitignore
+```
 
-# Stage everything
+---
+
+### **Step 5: Stage all files**
+
+```bash
 git add .
+```
 
-# Commit
+---
+
+### **Step 6: Commit your changes**
+
+```bash
 git commit -m "Initial commit: frontend (React) + backend (Node/Express)"
+```
 
-# Rename branch to main (GitHub default)
+---
+
+### **Step 7: Rename branch to main (GitHub default)**
+
+```bash
 git branch -M main
+```
 
-# Push your code
+---
+
+### **Step 8: Push your code to GitHub**
+
+```bash
 git push -u origin main
+```
+
+
